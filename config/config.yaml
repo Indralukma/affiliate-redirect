@@ -53,3 +53,8 @@ products:
     url: "https://c.lazada.co.id/t/c.1AtgSh"
     percentage: 10.0
     image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
+  - id: 9
+    name: "Gramedia"
+    url: "https://atid.me/000eul0027gt"
+    percentage: 1.0
+    image: ""
