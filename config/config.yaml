@@ -8,41 +8,41 @@ galaksion:
   postback_url: 'http://postback.report/postback'
 
 popcash:
-  aid: "494669"
+  aid: "494702"
   type: "1"
   postback_url: 'https://ct.popcash.net/click'
 
 products:
   - id: 1
-    name: "EIGER"
-    url: "https://atid.me/go/DOEFt9xt"
-    percentage: 6.0
-    image: "https://images.accesstrade.co.id/9565f1cd832c9675c76672081c819342/988221_320x50_20241106104432109.jpg"
+    name: "SHOPEE"
+    url: "https://atid.me/002d1g0027gt"
+    percentage: 50.0
+    image: "https://accesstrade.co.id/promo_campaign/1756699436_728x90.jpg"
   - id: 2
     name: "Blibli"
-    url: "https://atid.me/go/3uRpXt00"
+    url: "https://atid.me/00dh9j0027gt"
     percentage: 5.0
-    image: "https://images.accesstrade.co.id/fb1378d0b80ae44aae0000a3cff0b90f/765393_750x120_20240226105340691.jpg"
+    image: "https://images.accesstrade.co.id/fb1378d0b80ae44aae0000a3cff0b90f/765927_1200x200_20240227044617887.jpg"
   - id: 3
-    name: "AXA Mandiri"
-    url: "https://atid.me/go/MmadBUbc"
+    name: "DSC"
+    url: "https://atid.me/005ff60027gt"
     percentage: 10.0
-    image: "https://images.accesstrade.co.id/58ae23d878a47004366189884c2f8440/882456_790x90_20240807073010659.jpg"
+    image: "https://s3-ap-southeast-1.amazonaws.com/images.accesstrade.co.id/a8ef1979aeec2737ae3830ec543ed0df/257332_200x200_20211006064721596.jpg"
   - id: 4
     name: "Lazada"
-    url: "https://atid.me/go/WTvq2l3w"
-    percentage: 72.0
-    image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
+    url: "https://atid.me/0082ly0027gt"
+    percentage: 20.0
+    image: "https://images.accesstrade.co.id/7ecd070e606afbf07a07c32e7267051f/862633_864x1080_20240702051401301.jpeg"
   - id: 5
-    name: "Tiket"
-    url: "https://atid.me/go/1XudxBJp"
+    name: "EIGER"
+    url: "https://atid.me/004vll0027gt"
     percentage: 4.0
-    image: "https://images.accesstrade.co.id/fcdf698a5d673435e0a5a6f9ffea05ca/1068225_1024x294_20250324084400239.jpg"
+    image: "https://images.accesstrade.co.id/9565f1cd832c9675c76672081c819342/839552_1192x460_20240604064621592.jpg"
   - id: 6
-    name: "Samsung"
-    url: "https://atid.me/go/Ee0Sd2Ln"
-    percentage: 3.0
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    name: "Lazada Direct"
+    url: "https://c.lazada.co.id/t/c.1AtghD"
+    percentage: 20.0
+    image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
   - id: 7
     name: "Lazada Indra - Produk"
     url: "https://c.lazada.co.id/t/c.1At2Oc"
@@ -50,6 +50,6 @@ products:
     image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
   - id: 8
     name: "Lazada Indra - Campaign"
-    url: "https://c.lazada.co.id/t/c.1At2lO"
+    url: "https://c.lazada.co.id/t/c.1AtgSh"
     percentage: 10.0
     image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
