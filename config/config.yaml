@@ -24,7 +24,7 @@ products:
     percentage: 5.0
     image: "https://images.accesstrade.co.id/fb1378d0b80ae44aae0000a3cff0b90f/765927_1200x200_20240227044617887.jpg"
   - id: 3
-    name: "Tiktok ID"
+    name: "Tiktok"
     url: "https://atid.me/go/DgY5VGmb"
     percentage: 10.0
     image: "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/6b376a299ea048fea209a13f9933b6eb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg?dr=15584&t=555f072d&ps=933b5bde&shp=2408c917&shcp=78ae5c14&idc=my&from=604555543"
@@ -34,10 +34,10 @@ products:
     percentage: 20.0
     image: "https://images.accesstrade.co.id/7ecd070e606afbf07a07c32e7267051f/862633_864x1080_20240702051401301.jpeg"
   - id: 5
-    name: "EIGER"
-    url: "https://atid.me/004vll0027gt"
-    percentage: 4.0
-    image: "https://images.accesstrade.co.id/9565f1cd832c9675c76672081c819342/839552_1192x460_20240604064621592.jpg"
+    name: "ECOMOBI"
+    url: "https://goeco.mobi/jmvOxAiG"
+    percentage: 20.0
+    image: ""
   - id: 6
     name: "Lazada Direct"
     url: "https://c.lazada.co.id/t/c.1AtghD"
