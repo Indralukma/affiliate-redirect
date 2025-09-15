@@ -53,8 +53,3 @@ products:
     url: "https://c.lazada.co.id/t/c.c07LZp?sub_aff_id=indra"
     percentage: 10.0
     image: "https://sg-test-11.slatic.net/other/lzd-ad/cf98d0f3e6256e0d3e80608b101f0764.jpeg"
-  - id: 9
-    name: "Gramedia"
-    url: "https://atid.me/000eul0027gt"
-    percentage: 1.0
-    image: ""
