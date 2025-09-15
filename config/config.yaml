@@ -15,46 +15,46 @@ popcash:
 products:
   - id: 1
     name: "SHOPEE"
-    url: "https://atid.me/002d1g0027gt"
+    url: "https://atid.me/002d1g0027gt?utm_source={spot_id}--{domain}--{type_ads}"
     percentage: 50.0
     image: "https://accesstrade.co.id/promo_campaign/1756699436_728x90.jpg"
   - id: 2
     name: "Blibli"
-    url: "https://atid.me/00dh9j0027gt"
+    url: "https://atid.me/00dh9j0027gt?utm_source={spot_id}--{domain}--{type_ads}"
     percentage: 5.0
     image: "https://images.accesstrade.co.id/fb1378d0b80ae44aae0000a3cff0b90f/765927_1200x200_20240227044617887.jpg"
   - id: 3
     name: "Tiktok"
-    url: "https://atid.me/go/DgY5VGmb"
+    url: "https://atid.me/go/DgY5VGmb?utm_source={spot_id}--{domain}--{type_ads}"
     percentage: 10.0
     image: "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/6b376a299ea048fea209a13f9933b6eb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg?dr=15584&t=555f072d&ps=933b5bde&shp=2408c917&shcp=78ae5c14&idc=my&from=604555543"
   - id: 4
     name: "Lazada"
-    url: "https://atid.me/0082ly0027gt"
+    url: "https://atid.me/0082ly0027gt?utm_source={spot_id}--{domain}--{type_ads}"
     percentage: 10.0
     image: "https://images.accesstrade.co.id/7ecd070e606afbf07a07c32e7267051f/862633_864x1080_20240702051401301.jpeg"
   - id: 5
     name: "ECOMOBI"
-    url: "https://goeco.mobi/jmvOxAiG"
+    url: "https://goeco.mobi/jmvOxAiG?sub1={spot_id}--{domain}--{type_ads}--{campaign_id}--{sub_id}"
     percentage: 20.0
     image: ""
   - id: 6
     name: "Lazada Direct"
-    url: "https://c.lazada.co.id/t/c.1AtghD"
+    url: "https://c.lazada.co.id/t/c.1AtghD?sub_id1={siteid}&sub_id2={sub_id}&sub_id3={type_ads}&sub_aff_id={sub_id}"
     percentage: 10.0
     image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
   - id: 7
     name: "Lazada Indra - Produk"
-    url: "https://c.lazada.co.id/t/c.1At2Oc"
+    url: "https://c.lazada.co.id/t/c.1At2Oc?sub_id1={siteid}&sub_id2={sub_id}&sub_id3={type_ads}&sub_aff_id={sub_id}"
     percentage: 10.0
     image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
   - id: 8
     name: "Lazada Indra - Campaign"
-    url: "https://c.lazada.co.id/t/c.c07LZp?sub_aff_id=indra"
+    url: "https://c.lazada.co.id/t/c.c07LZp?sub_aff_id=indra?sub_id1={siteid}&sub_id2={sub_id}&sub_id3={type_ads}&sub_aff_id={sub_id}"
     percentage: 10.0
     image: "https://sg-test-11.slatic.net/other/lzd-ad/cf98d0f3e6256e0d3e80608b101f0764.jpeg"
   - id: 9
     name: "Shopee Direct"
-    url: "https://s.shopee.co.id/8Kg9ETG8V0"
+    url: "https://s.shopee.co.id/8Kg9ETG8V0?sub_id={click_id--{campaign_id}--{spot_id}--{type_ads}--{domain}"
     percentage: 20.0
     image: ""
