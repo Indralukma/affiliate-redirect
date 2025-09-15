@@ -31,7 +31,7 @@ products:
   - id: 4
     name: "Lazada"
     url: "https://atid.me/0082ly0027gt"
-    percentage: 20.0
+    percentage: 10.0
     image: "https://images.accesstrade.co.id/7ecd070e606afbf07a07c32e7267051f/862633_864x1080_20240702051401301.jpeg"
   - id: 5
     name: "ECOMOBI"
@@ -41,7 +41,7 @@ products:
   - id: 6
     name: "Lazada Direct"
     url: "https://c.lazada.co.id/t/c.1AtghD"
-    percentage: 20.0
+    percentage: 10.0
     image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
   - id: 7
     name: "Lazada Indra - Produk"
