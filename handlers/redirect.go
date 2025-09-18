@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"go-redirect/utils"
 	"log"
 	"math/rand/v2"
 	"net/url"
-	"strings"
 	"time"
 
 	"go-redirect/geo"
@@ -27,6 +27,14 @@ func RedirectHandler(c *fiber.Ctx) error {
 				return doRedirect(c, p)
 			}
 		}
+		// Fallback: try to find in CSV-defined products
+		if csvProducts, err := utils.LoadProductsCSV("config/config.csv"); err == nil {
+			for _, p := range csvProducts {
+				if p.ID == productID {
+					return doRedirect(c, p)
+				}
+			}
+		}
 	}
 
 	total := 0.0
@@ -37,7 +45,6 @@ func RedirectHandler(c *fiber.Ctx) error {
 		return c.Status(404).SendString("No products configured")
 	}
 	if total <= 0 {
-		// Fallback to first product deterministically if weights are zero
 		return doRedirect(c, Products[0])
 	}
 	r := rand.Float64() * total
@@ -111,33 +118,24 @@ func doRedirect(c *fiber.Ctx, product models.Product) error {
 	})
 
 	if subIDOut != "" {
-		var cleaned []string
-		for _, kv := range filteredParams {
-			if !strings.HasPrefix(kv, "sub_id=") && !strings.HasPrefix(kv, "sub_id=") {
-				cleaned = append(cleaned, kv)
-			}
-		}
-		filteredParams = cleaned
-		filteredParams = append(filteredParams, fmt.Sprintf("%s=%s", url.QueryEscape("sub_id"), url.QueryEscape(subIDOut)))
+		// Inject the derived sub_id into queryParams so helpers can fill placeholders
+		queryParams["sub_id"] = subIDOut
 	}
 
-	// --- Build final URL ---
-	finalURL := product.URL
-	if len(filteredParams) > 0 {
-		sep := "?"
-		if strings.Contains(finalURL, "?") {
-			sep = "&"
-		}
-		finalURL = finalURL + sep + strings.Join(filteredParams, "&")
-	}
+	finalURL := utils.BuildAffiliateURL(product.URL, queryParams)
 
 	// --- Logging ---
 	displayURL, err := url.QueryUnescape(finalURL)
 	if err != nil || displayURL == "" {
 		displayURL = finalURL
 	}
+	qp, _ := json.Marshal(queryParams)
+	hd, _ := json.Marshal(headers)
+	geoJson, _ := json.Marshal(geoInfo)
+
 	entry := models.LogEntry{
-		Timestamp:   time.Now().Format(time.RFC3339),
+		Type:        models.TypeRouteRedirect,
+		Timestamp:   time.Now(),
 		ProductName: product.Name,
 		URL:         displayURL,
 		IP:          ip,
@@ -147,10 +145,14 @@ func doRedirect(c *fiber.Ctx, product models.Product) error {
 		Device:      device,
 		Referer:     c.Get("Referer"),
 		QueryRaw:    string(c.Request().URI().QueryString()),
-		QueryParams: queryParams,
-		Headers:     headers,
-		Geo:         geoInfo,
+		QueryParams: qp,
+		Headers:     hd,
+		Geo:         geoJson,
 	}
+	//
+	//if err := utils.DB.Create(&entry).Error; err != nil {
+	//	log.Println("Failed insert redirect log:", err)
+	//}
 
 	Logs = append(Logs, entry)
 	buf := &bytes.Buffer{}
