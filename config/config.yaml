@@ -1,6 +1,6 @@
 propeller:
-  aid: "YOUR_AID"
-  tid: "YOUR_TID"
+  aid: "3660516"
+  tid: "125024"
   postback_url: 'http://ad.propellerads.com/conversion.php'
 
 galaksion:
@@ -12,9 +12,11 @@ popcash:
   type: "1"
   postback_url: 'https://ct.popcash.net/click'
 
-clickadilla:
-  postback_url: "https://tracking.clickadilla.com/in/postbacks/"
+clickadila:
+  postback_url: 'https://tracking.clickadilla.com/in/postbacks'
   token: "m96gRV"
+
+  
 
 products:
   - id: 1
