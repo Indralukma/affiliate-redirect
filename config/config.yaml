@@ -22,7 +22,7 @@ products:
   - id: 1
     name: "SHOPEE"
     url: "https://atid.me/002d1g0027gt?utm_source={spot_id}--{domain}--{type_ads}"
-    percentage: 50.0
+    percentage: 30.0
     image: "https://accesstrade.co.id/promo_campaign/1756699436_728x90.jpg"
   - id: 2
     name: "Blibli"
@@ -62,5 +62,5 @@ products:
   - id: 9
     name: "Shopee Direct"
     url: "https://s.shopee.co.id/8Kg9ETG8V0?sub_id={click_id--{campaign_id}--{spot_id}--{type_ads}--{domain}"
-    percentage: 20.0
+    percentage: 4.0
     image: ""
