@@ -42,7 +42,7 @@ products:
   - id: 5
     name: "ECOMOBI"
     url: "https://goeco.mobi/jmvOxAiG?sub1={spot_id}--{domain}--{type_ads}--{campaign_id}--{sub_id}"
-    percentage: 20.0
+    percentage: 5.0
     image: ""
   - id: 6
     name: "Lazada Direct"
@@ -51,16 +51,16 @@ products:
     image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
   - id: 7
     name: "Lazada Indra - Produk"
-    url: "https://c.lazada.co.id/t/c.1At2Oc?sub_id1={siteid}&sub_id2={sub_id}&sub_id3={type_ads}&sub_aff_id={sub_id}"
+    url: "https://c.lazada.co.id/t/c.c2z1O9?sub_aff_id=indra"
     percentage: 10.0
     image: "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"
   - id: 8
     name: "Lazada Indra - Campaign"
-    url: "https://c.lazada.co.id/t/c.c07LZp?sub_aff_id=indra?sub_id1={siteid}&sub_id2={sub_id}&sub_id3={type_ads}&sub_aff_id={sub_id}"
+    url: "https://c.lazada.co.id/t/c.c2z1OZ?sub_aff_id=indra"
     percentage: 10.0
-    image: "https://sg-test-11.slatic.net/other/lzd-ad/cf98d0f3e6256e0d3e80608b101f0764.jpeg"
+    image: "https://sg-test-11.slatic.net/other/lzd-ad/991485dcba5730f8d088e54e292093ef.jpeg"
   - id: 9
     name: "Shopee Direct"
     url: "https://s.shopee.co.id/8Kg9ETG8V0?sub_id={click_id--{campaign_id}--{spot_id}--{type_ads}--{domain}"
-    percentage: 4.0
+    percentage: 40.0
     image: ""
