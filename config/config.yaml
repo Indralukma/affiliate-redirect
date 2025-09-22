@@ -21,9 +21,9 @@ clickadila:
 products:
   - id: 1
     name: "SHOPEE"
-    url: "https://atid.me/002d1g0027gt?utm_source={spot_id}--{domain}--{type_ads}"
+    url: "https://atid.me/go/ETE46Qek?utm_source={spot_id}--{domain}--{type_ads}"
     percentage: 30.0
-    image: "https://accesstrade.co.id/promo_campaign/1756699436_728x90.jpg"
+    image: "https://accesstrade.co.id/promo_campaign/1732180793_com-affiliates_728x90.jpg"
   - id: 2
     name: "Blibli"
     url: "https://atid.me/00dh9j0027gt?utm_source={spot_id}--{domain}--{type_ads}"
