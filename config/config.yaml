@@ -27,11 +27,11 @@ products:
   - id: 2
     name: "Blibli"
     url: "https://atid.me/00dh9j0027gt?utm_source={spot_id}--{domain}--{type_ads}"
-    percentage: 5.0
+    percentage: 1.0
     image: "https://images.accesstrade.co.id/fb1378d0b80ae44aae0000a3cff0b90f/765927_1200x200_20240227044617887.jpg"
   - id: 3
     name: "Tiktok"
-    url: "https://atid.me/go/DgY5VGmb?utm_source={spot_id}--{domain}--{type_ads}"
+    url: "https://atid.me/go/lOlIkUqk?utm_source={spot_id}--{domain}--{type_ads}"
     percentage: 10.0
     image: "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/6b376a299ea048fea209a13f9933b6eb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg?dr=15584&t=555f072d&ps=933b5bde&shp=2408c917&shcp=78ae5c14&idc=my&from=604555543"
   - id: 4
