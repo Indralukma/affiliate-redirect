@@ -56,6 +56,6 @@ products:
     image: "https://sg-test-11.slatic.net/other/lzd-ad/991485dcba5730f8d088e54e292093ef.jpeg"
   - id: 9
     name: "Shopee Direct"
-    url: "https://s.shopee.co.id/8Kg9ETG8V0?sub_id={click_id--{campaign_id}--{spot_id}--{type_ads}--{domain}"
+    url: "https://s.shopee.co.id/9fBwjP8EwC?sub_id={click_id--{campaign_id}--{spot_id}--{type_ads}--{domain}"
     percentage: 40.0
     image: ""
