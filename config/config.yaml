@@ -39,11 +39,6 @@ products:
     url: "https://atid.me/0082ly0027gt?utm_source={spot_id}--{domain}--{type_ads}"
     percentage: 10.0
     image: "https://images.accesstrade.co.id/7ecd070e606afbf07a07c32e7267051f/862633_864x1080_20240702051401301.jpeg"
-  - id: 5
-    name: "ECOMOBI"
-    url: "https://goeco.mobi/jmvOxAiG?sub1={spot_id}--{domain}--{type_ads}--{campaign_id}--{sub_id}"
-    percentage: 5.0
-    image: ""
   - id: 6
     name: "Lazada Direct"
     url: "https://c.lazada.co.id/t/c.1AtghD?sub_id1={siteid}&sub_id2={sub_id}&sub_id3={type_ads}&sub_aff_id={sub_id}"
