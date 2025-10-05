@@ -23,7 +23,7 @@ products:
     name: "SHOPEE"
     url: "https://atid.me/002d1g0027gt?sub_id={subid}&type_ads={type_ads}"
     percentage: 30.0
-    image: "https://accesstrade.co.id/promo_campaign/1732180793_com-affiliates_728x90.jpg"
+    image: ""
   - id: 2
     name: "Blibli"
     url: "https://atid.me/00dh9j0027gt?utm_source={spot_id}--{domain}--{type_ads}"
@@ -37,7 +37,7 @@ products:
   - id: 4
     name: "Lazada"
     url: "https://atid.me/0082ly0027gt?utm_source={spot_id}--{domain}--{type_ads}"
-    percentage: 10.0
+    percentage: 1.0
     image: "https://images.accesstrade.co.id/7ecd070e606afbf07a07c32e7267051f/862633_864x1080_20240702051401301.jpeg"
   - id: 6
     name: "Lazada Direct"
