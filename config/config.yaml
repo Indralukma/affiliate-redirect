@@ -20,9 +20,9 @@ clickadila:
 
 products:
   - id: 1
-    name: "SHOPEE"
-    url: "https://atid.me/002d1g0027gt?sub_id={subid}&type_ads={type_ads}"
-    percentage: 30.0
+    name: "MMRS Accestrade"
+    url: "https://atid.me/00oq0w0027gt?sub_id={subid}&type_ads={type_ads}"
+    percentage: 1.0
     image: ""
   - id: 2
     name: "Blibli"
@@ -58,4 +58,19 @@ products:
     name: "Shopee Direct"
     url: "https://s.shopee.co.id/9fBwjP8EwC?sub_id={campaign_id}-{spot_id}-{type_ads}-{domain}"
     percentage: 40.0
+    image: ""
+  - id: 10
+    name: "Zataru Accestrade"
+    url: "https://atid.me/0004940027gt?sub_id={subid}&type_ads={type_ads}"
+    percentage: 5.0
+    image: ""
+  - id: 11
+    name: "Gramedia Accestrade"
+    url: "https://atid.me/000eul0027gt?sub_id={subid}&type_ads={type_ads}"
+    percentage: 5.0
+    image: ""
+  - id: 12
+    name: "Periplus Accestrade"
+    url: "https://atid.me/000aw50027gt?sub_id={subid}&type_ads={type_ads}"
+    percentage: 3.0
     image: ""
