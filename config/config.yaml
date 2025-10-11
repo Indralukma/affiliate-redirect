@@ -1,7 +1,12 @@
 propeller:
-  aid: "3660516"
-  tid: "125024"
+  aid: "3868690"
+  tid: "148284"
   postback_url: 'http://ad.propellerads.com/conversion.php'
+
+propellerAds:
+  aid: "3868690"
+  tid: "148284"
+  postback_url: 'http://ad.propellerads.com/conversion.php?aid=3868690&pid=&tid=148284&visitor_id=${SUBID}&payout=${PAYOUT}
 
 galaksion:
   cid: "46704"
